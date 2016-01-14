@@ -27,9 +27,9 @@ I dati sono stati modellati nella classe **Invoice** (`Entity Bean`)  e mantenut
 
 Class                  | Description
 ---------------------- | -----------
+**Utils**              | Helper methods
 **DueRegisterClient**  | CLI Client
 **DueRegisterBuilder** | Builder per la costruzione del `Service Facade`
-**Utils**              | Helper methods
 
 ### Code snippets:
 
