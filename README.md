@@ -34,21 +34,19 @@ Class                  | Description
 ### Code snippets:
 
 >**Calcolo delle date** senza l'utilizzo di *Calendar.getActualMaximum*
+
 ```
 String str_date="20/10/2015";
 DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 Date date = df.parse(str_date);
-
 Calendar cal = Calendar.getInstance();
 cal.setTime(date);
 System.out.println("Data Fattura: " + cal.getTime());
-
 Calendar fm = (Calendar) cal.clone();
 fm.add(Calendar.MONTH, 1);
 fm.set(Calendar.DATE, 1);
 fm.add(Calendar.DATE, -1);
 System.out.println("Fine Mese: " + fm.getTime());
-
 Calendar sg = (Calendar) cal.clone();
 sg.add(Calendar.MONTH,2);
 System.out.println("Sessanta Giorni: " + sg.getTime());
