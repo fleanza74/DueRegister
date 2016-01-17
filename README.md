@@ -51,7 +51,7 @@ sg.add(Calendar.MONTH,2);
 System.out.println("Sessanta Giorni: " + sg.getTime());
 ```
 
->**Ordinamento** senza l'utilizzo * del metodo sort di Collection o delle sue sottoclassi*
+>**Ordinamento** senza l'utilizzo *del metodo sort di Collection o delle sue sottoclassi*
 
 ```
 public List<Invoice> sort(List<Invoice> source) {
