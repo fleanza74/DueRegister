@@ -76,6 +76,7 @@ public List<Invoice> sort(List<Invoice> source) {
 ##Synopsys
  
 ```
+mvn package
 java -jar dueregister-jar-with-dependencies.jar -in <in-filepath> - out <out-filepath>
 ```
 
